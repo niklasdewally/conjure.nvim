@@ -1,3 +1,7 @@
+" The following code has been copied verbatim from https://github.com/Druid-of-Luhn/essence.vim
+"
+" Copyright Billy Brown. Distributed under the same terms as Vim itself. See :help license.
+"
 " File:         essence.vim
 " Author:       Billy Brown
 " Description:  Filetype detection of the Essence and Essence' modelling languages.
