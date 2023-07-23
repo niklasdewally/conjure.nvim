@@ -40,7 +40,7 @@ This plugin is largely made up of parts of other projects:
   
   Both *essence.vim* and this project as a whole are licensed with the `vim` licence.
 
-[LICENCE](LICENSE)
+[LICENSE](LICENSE)
   
 
 
