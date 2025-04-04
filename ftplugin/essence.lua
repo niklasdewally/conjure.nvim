@@ -17,6 +17,5 @@ end
 -- comments and formatting stuff
 vim.o.commentstring="$ %s"
 vim.o.comments="b:$"
-vim.o.formatoptions="croqnl1jpa"
 vim.o.shiftwidth=2
 vim.o.expandtab=true
