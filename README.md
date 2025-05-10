@@ -11,17 +11,28 @@ A neovim plugin for the [Conjure](https://github.com/conjure-cp/conjure) and [Sa
 ## Requirements
 
 * [Conjure](https://github.com/conjure-cp/conjure) version 2.5 or higher.
-* Neovim v0.8 or higher. 
+* Neovim v0.11 or higher. 
 
 ## Installation
 
-Version 1.0 will be the last to support Neovim versions 0.8-0.10.x.
+The last release to support Neovim 0.8 - 0.10.x was [`1.0`](https://github.com/niklasdewally/conjure.nvim/tree/1.0).
 
-   
+
+Neovim 0.11 or above users should use the latest release [tag](https://github.com/niklasdewally/conjure.nvim/tags) or the `2.x` release branch (which will get consistent updates).
+
 Using `lazy.nvim`:
 
 ```lua
-{'niklasdewally/conjure.nvim', tag = '1.0'}
+-- init.lua
+{'niklasdewally/conjure.nvim', tag = '1.0',
+-- or                        , branch='2.x',
+}
+    
+-- plugins/conjure.lua
+return {
+  'niklasdewally/conjure.nvim', tag = '1.0',
+-- or                         , branch='2.x',
+}
 ```
 
 [LICENSE](LICENSE)
