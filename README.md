@@ -15,16 +15,13 @@ A neovim plugin for the [Conjure](https://github.com/conjure-cp/conjure) and [Sa
 
 ## Installation
 
-Using `packer.nvim`:
+Version 1.0 will be the last to support Neovim versions 0.8-0.10.x.
 
-   ```lua
-   use'niklasdewally/conjure.nvim'
-   ```
    
 Using `lazy.nvim`:
 
-   ```lua
-   {'niklasdewally/conjure.nvim'}
-   ```
+```lua
+{'niklasdewally/conjure.nvim', tag = '1.0'}
+```
 
 [LICENSE](LICENSE)
