@@ -1,22 +1,30 @@
 # `conjure.nvim`
 
-A neovim plugin for the [Conjure](https://github.com/conjure-cp/conjure) and [Savile Row](https://savilerow.cs.st-andrews.ac.uk/) constraint modelling tools.
+A neovim plugin for the [Conjure](https://github.com/conjure-cp/conjure) and [Savile Row](https://www-users.york.ac.uk/peter.nightingale/savilerow/) constraint modelling tools.
 
 ## Features 
 
-* Filetype detection and syntax highlighting for the [Essence](https://conjure.readthedocs.io/en/latest/essence.html) and [Essence'](http://savilerow.cs.st-andrews.ac.uk/index.html) modelling languages.
+* Filetype detection and syntax highlighting for the [Essence](https://conjure.readthedocs.io/en/latest/essence.html) and [Essence'](https://www-users.york.ac.uk/peter.nightingale/savilerow/) modelling languages.
 
 * Automatic configuration of the Conjure LSP server.
 
+## Requirements
+
+* [Conjure](https://github.com/conjure-cp/conjure) version 2.5 or higher.
+* Neovim v0.8 or higher. 
+
 ## Installation
 
-1. Install [Conjure](https://github.com/conjure-cp/conjure) version 2.5 or higher.
-
-2. Install this plugin using your preferred package manager.
-   
-   For example, using Packer:
+Using `packer.nvim`:
 
    ```lua
    use'niklasdewally/conjure.nvim'
    ```
+   
+Using `lazy.nvim`:
+
+   ```lua
+   {'niklasdewally/conjure.nvim'}
+   ```
+
 [LICENSE](LICENSE)
