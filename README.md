@@ -26,12 +26,14 @@ Using `lazy.nvim`:
 -- init.lua
 {'niklasdewally/conjure.nvim', tag = '1.0',
 -- or                        , branch='2.x',
+  opts = {},
 }
     
 -- plugins/conjure.lua
 return {
   'niklasdewally/conjure.nvim', tag = '1.0',
 -- or                         , branch='2.x',
+  opts = {},
 }
 ```
 
