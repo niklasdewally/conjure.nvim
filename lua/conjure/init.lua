@@ -14,4 +14,5 @@ function M.setup(opts)
   -- see: https://zignar.net/2022/11/06/structuring-neovim-lua-plugins/
   -- https://mrcjkb.dev/posts/2023-08-22-setup.html
 
+end
 return M
